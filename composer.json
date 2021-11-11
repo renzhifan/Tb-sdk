@@ -19,7 +19,7 @@
       "Tbsdk\\Top\\Request\\": "src/top/request"
     },
     "files": [
-      "src/TopSdk.php"
+      "TopSdk.php"
     ]
   }
 }
