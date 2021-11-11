@@ -1,0 +1,25 @@
+{
+  "name": "renzhifan/taobao-sdk",
+  "description": "淘宝sdk加composer支持",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "renzhifan",
+      "email": "renzhifan@haohaozhu.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tbsdk\\": "src/",
+      "Tbsdk\\Top\\": "src/top",
+      "Tbsdk\\Top\\Domain\\": "src/top/domain",
+      "Tbsdk\\Top\\Request\\": "src/top/request"
+    },
+    "files": [
+      "src/TopSdk.php"
+    ]
+  }
+}
