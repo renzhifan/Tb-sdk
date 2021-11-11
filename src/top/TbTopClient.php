@@ -1,5 +1,5 @@
 <?php
-class TopClient
+class TbTopClient
 {
 	public $appkey;
 
